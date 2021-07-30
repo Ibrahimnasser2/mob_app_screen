@@ -4,6 +4,85 @@ import 'package:flutter/material.dart';
 
 class messenger extends StatelessWidget {
 
+  Widget chat1(){
+
+    return Container(
+      width: 60,
+      child: Column(
+
+          children: [Stack(
+            alignment:AlignmentDirectional.bottomEnd ,
+            children: [
+              CircleAvatar(
+                backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
+                radius: 30,
+
+              ),
+              CircleAvatar(
+                backgroundColor: Colors.red,
+                radius: 5,),
+
+            ],
+          ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("hema nasser hjdhfkjhsfjkdhkjf",maxLines: 2,overflow: TextOverflow.ellipsis,),
+            ),
+
+
+          ]),
+    );
+
+  }
+  Widget chat2(){
+
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+
+      children: [
+        Stack(
+          alignment:AlignmentDirectional.bottomEnd ,
+          children: [
+            CircleAvatar(
+              backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
+              radius: 25,
+
+            ),
+            CircleAvatar(
+              backgroundColor: Colors.red,
+              radius: 5,),
+
+          ],
+        ),
+
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+
+            children: [
+              Text("kdhsklfjdkljfskldjfsldkfjlsk ",style: TextStyle(fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold )),
+              Text("Chaggfdg.d;lfg;dflg;dlfgts ",style: TextStyle(fontSize: 12,  )),
+
+
+            ],
+          ),
+        ),
+
+
+
+
+
+
+
+
+      ],
+    );
+
+  }
+
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -69,813 +148,40 @@ class messenger extends StatelessWidget {
                     border: OutlineInputBorder(),
 
 
+
+
                   ),
 
 
+
                 ),
                 SizedBox(
                   height: 10,
                 ),
-                SingleChildScrollView(
-
-                  scrollDirection: Axis.horizontal,
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Container(
-                        width: 60,
-                        child: Column(
-
-                          children: [Stack(
-                            alignment:AlignmentDirectional.bottomEnd ,
-                            children: [
-                              CircleAvatar(
-                                backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                                radius: 30,
-
-                              ),
-                              CircleAvatar(
-                                backgroundColor: Colors.red,
-                                radius: 5,),
-
-                            ],
-                          ),
-                            Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: Text("hema nasser hjdhfkjhsfjkdhkjf",maxLines: 2,overflow: TextOverflow.ellipsis,),
-                            ),
-
-
-                        ]),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      Container(
-                        width: 60,
-                        child: Column(
-
-                            children: [Stack(
-                              alignment:AlignmentDirectional.bottomEnd ,
-                              children: [
-                                CircleAvatar(
-                                  backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                                  radius: 30,
-
-                                ),
-                                CircleAvatar(
-                                  backgroundColor: Colors.red,
-                                  radius: 5,),
-
-                              ],
-                            ),
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Text("hema nasser hjdhfkjhsfjkdhkjf",maxLines: 2,overflow: TextOverflow.ellipsis,),
-                              ),
-
-
-                            ]),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),Container(
-                        width: 60,
-                        child: Column(
-
-                            children: [Stack(
-                              alignment:AlignmentDirectional.bottomEnd ,
-                              children: [
-                                CircleAvatar(
-                                  backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                                  radius: 30,
-
-                                ),
-                                CircleAvatar(
-                                  backgroundColor: Colors.red,
-                                  radius: 5,),
-
-                              ],
-                            ),
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Text("hema nasser hjdhfkjhsfjkdhkjf",maxLines: 2,overflow: TextOverflow.ellipsis,),
-                              ),
-
-
-                            ]),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),Container(
-                        width: 60,
-                        child: Column(
-
-                            children: [Stack(
-                              alignment:AlignmentDirectional.bottomEnd ,
-                              children: [
-                                CircleAvatar(
-                                  backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                                  radius: 30,
-
-                                ),
-                                CircleAvatar(
-                                  backgroundColor: Colors.red,
-                                  radius: 5,),
-
-                              ],
-                            ),
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Text("hema nasser hjdhfkjhsfjkdhkjf",maxLines: 2,overflow: TextOverflow.ellipsis,),
-                              ),
-
-
-                            ]),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),Container(
-                        width: 60,
-                        child: Column(
-
-                            children: [Stack(
-                              alignment:AlignmentDirectional.bottomEnd ,
-                              children: [
-                                CircleAvatar(
-                                  backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                                  radius: 30,
-
-                                ),
-                                CircleAvatar(
-                                  backgroundColor: Colors.red,
-                                  radius: 5,),
-
-                              ],
-                            ),
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Text("hema nasser hjdhfkjhsfjkdhkjf",maxLines: 2,overflow: TextOverflow.ellipsis,),
-                              ),
-
-
-                            ]),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),Container(
-                        width: 60,
-                        child: Column(
-
-                            children: [Stack(
-                              alignment:AlignmentDirectional.bottomEnd ,
-                              children: [
-                                CircleAvatar(
-                                  backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                                  radius: 30,
-
-                                ),
-                                CircleAvatar(
-                                  backgroundColor: Colors.red,
-                                  radius: 5,),
-
-                              ],
-                            ),
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Text("hema nasser hjdhfkjhsfjkdhkjf",maxLines: 2,overflow: TextOverflow.ellipsis,),
-                              ),
-
-
-                            ]),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),Container(
-                        width: 60,
-                        child: Column(
-
-                            children: [Stack(
-                              alignment:AlignmentDirectional.bottomEnd ,
-                              children: [
-                                CircleAvatar(
-                                  backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                                  radius: 30,
-
-                                ),
-                                CircleAvatar(
-                                  backgroundColor: Colors.red,
-                                  radius: 5,),
-
-                              ],
-                            ),
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Text("hema nasser hjdhfkjhsfjkdhkjf",maxLines: 2,overflow: TextOverflow.ellipsis,),
-                              ),
-
-
-                            ]),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),Container(
-                        width: 60,
-                        child: Column(
-
-                            children: [Stack(
-                              alignment:AlignmentDirectional.bottomEnd ,
-                              children: [
-                                CircleAvatar(
-                                  backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                                  radius: 30,
-
-                                ),
-                                CircleAvatar(
-                                  backgroundColor: Colors.red,
-                                  radius: 5,),
-
-                              ],
-                            ),
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Text("hema nasser hjdhfkjhsfjkdhkjf",maxLines: 2,overflow: TextOverflow.ellipsis,),
-                              ),
-
-
-                            ]),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),Container(
-                        width: 60,
-                        child: Column(
-
-                            children: [Stack(
-                              alignment:AlignmentDirectional.bottomEnd ,
-                              children: [
-                                CircleAvatar(
-                                  backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                                  radius: 30,
-
-                                ),
-                                CircleAvatar(
-                                  backgroundColor: Colors.red,
-                                  radius: 5,),
-
-                              ],
-                            ),
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Text("hema nasser hjdhfkjhsfjkdhkjf",maxLines: 2,overflow: TextOverflow.ellipsis,),
-                              ),
-
-
-                            ]),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),Container(
-                        width: 60,
-                        child: Column(
-
-                            children: [Stack(
-                              alignment:AlignmentDirectional.bottomEnd ,
-                              children: [
-                                CircleAvatar(
-                                  backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                                  radius: 30,
-
-                                ),
-                                CircleAvatar(
-                                  backgroundColor: Colors.red,
-                                  radius: 5,),
-
-                              ],
-                            ),
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Text("hema nasser hjdhfkjhsfjkdhkjf",maxLines: 2,overflow: TextOverflow.ellipsis,),
-                              ),
-
-
-                            ]),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),Container(
-                        width: 60,
-                        child: Column(
-
-                            children: [Stack(
-                              alignment:AlignmentDirectional.bottomEnd ,
-                              children: [
-                                CircleAvatar(
-                                  backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                                  radius: 30,
-
-                                ),
-                                CircleAvatar(
-                                  backgroundColor: Colors.red,
-                                  radius: 5,),
-
-                              ],
-                            ),
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Text("hema nasser hjdhfkjhsfjkdhkjf",maxLines: 2,overflow: TextOverflow.ellipsis,),
-                              ),
-
-
-                            ]),
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),Container(
-                        width: 60,
-                        child: Column(
-
-                            children: [Stack(
-                              alignment:AlignmentDirectional.bottomEnd ,
-                              children: [
-                                CircleAvatar(
-                                  backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                                  radius: 30,
-
-                                ),
-                                CircleAvatar(
-                                  backgroundColor: Colors.red,
-                                  radius: 5,),
-
-                              ],
-                            ),
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Text("hema nasser hjdhfkjhsfjkdhkjf",maxLines: 2,overflow: TextOverflow.ellipsis,),
-                              ),
-
-
-                            ]),
-                      ),
-
-
-
-
-
-
-                    ],
-                  ),
+                Container(
+                  height: 110,
+                  child: ListView.separated(
+                      shrinkWrap: true,
+                    scrollDirection:Axis.horizontal ,
+                      itemBuilder:(context,index )=>chat1(),
+
+
+                      separatorBuilder: (context,index )=>SizedBox(width: 15,),
+                      itemCount: 20),
                 ),
-                SizedBox(
-                  height: 10,
-                ),
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
 
-                  children: [
-                    Stack(
-                      alignment:AlignmentDirectional.bottomEnd ,
-                      children: [
-                        CircleAvatar(
-                          backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                          radius: 25,
+                  ListView.separated(
+                    shrinkWrap: true,
+                      scrollDirection:Axis.vertical,
 
-                        ),
-                        CircleAvatar(
-                          backgroundColor: Colors.red,
-                          radius: 5,),
+                      itemBuilder:(context,index )=>chat2(),
 
-                      ],
-                    ),
 
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
+                      separatorBuilder: (context,index )=>SizedBox(height: 15,),
+                      itemCount: 20),
 
-                        children: [
-                          Text("kdhsklfjdkljfskldjfsldkfjlsk ",style: TextStyle(fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold )),
-                          Text("Chaggfdg.d;lfg;dflg;dlfgts ",style: TextStyle(fontSize: 12,  )),
 
 
-                        ],
-                      ),
-                    ),
-
-
-
-
-
-
-
-
-                  ],
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-
-                  children: [
-                    Stack(
-                      alignment:AlignmentDirectional.bottomEnd ,
-                      children: [
-                        CircleAvatar(
-                          backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                          radius: 25,
-
-                        ),
-                        CircleAvatar(
-                          backgroundColor: Colors.red,
-                          radius: 5,),
-
-                      ],
-                    ),
-
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-
-                        children: [
-                          Text("kdhsklfjdkljfskldjfsldkfjlsk ",style: TextStyle(fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold )),
-                          Text("Chaggfdg.d;lfg;dflg;dlfgts ",style: TextStyle(fontSize: 12,  )),
-
-
-                        ],
-                      ),
-                    ),
-
-
-
-
-
-
-
-
-                  ],
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-
-                  children: [
-                    Stack(
-                      alignment:AlignmentDirectional.bottomEnd ,
-                      children: [
-                        CircleAvatar(
-                          backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                          radius: 25,
-
-                        ),
-                        CircleAvatar(
-                          backgroundColor: Colors.red,
-                          radius: 5,),
-
-                      ],
-                    ),
-
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-
-                        children: [
-                          Text("kdhsklfjdkljfskldjfsldkfjlsk ",style: TextStyle(fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold )),
-                          Text("Chaggfdg.d;lfg;dflg;dlfgts ",style: TextStyle(fontSize: 12,  )),
-
-
-                        ],
-                      ),
-                    ),
-
-
-
-
-
-
-
-
-                  ],
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-
-                  children: [
-                    Stack(
-                      alignment:AlignmentDirectional.bottomEnd ,
-                      children: [
-                        CircleAvatar(
-                          backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                          radius: 25,
-
-                        ),
-                        CircleAvatar(
-                          backgroundColor: Colors.red,
-                          radius: 5,),
-
-                      ],
-                    ),
-
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-
-                        children: [
-                          Text("kdhsklfjdkljfskldjfsldkfjlsk ",style: TextStyle(fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold )),
-                          Text("Chaggfdg.d;lfg;dflg;dlfgts ",style: TextStyle(fontSize: 12,  )),
-
-
-                        ],
-                      ),
-                    ),
-
-
-
-
-
-
-
-
-                  ],
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-
-                  children: [
-                    Stack(
-                      alignment:AlignmentDirectional.bottomEnd ,
-                      children: [
-                        CircleAvatar(
-                          backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                          radius: 25,
-
-                        ),
-                        CircleAvatar(
-                          backgroundColor: Colors.red,
-                          radius: 5,),
-
-                      ],
-                    ),
-
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-
-                        children: [
-                          Text("kdhsklfjdkljfskldjfsldkfjlsk ",style: TextStyle(fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold )),
-                          Text("Chaggfdg.d;lfg;dflg;dlfgts ",style: TextStyle(fontSize: 12,  )),
-
-
-                        ],
-                      ),
-                    ),
-
-
-
-
-
-
-
-
-                  ],
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-
-                  children: [
-                    Stack(
-                      alignment:AlignmentDirectional.bottomEnd ,
-                      children: [
-                        CircleAvatar(
-                          backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                          radius: 25,
-
-                        ),
-                        CircleAvatar(
-                          backgroundColor: Colors.red,
-                          radius: 5,),
-
-                      ],
-                    ),
-
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-
-                        children: [
-                          Text("kdhsklfjdkljfskldjfsldkfjlsk ",style: TextStyle(fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold )),
-                          Text("Chaggfdg.d;lfg;dflg;dlfgts ",style: TextStyle(fontSize: 12,  )),
-
-
-                        ],
-                      ),
-                    ),
-
-
-
-
-
-
-
-
-                  ],
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-
-                  children: [
-                    Stack(
-                      alignment:AlignmentDirectional.bottomEnd ,
-                      children: [
-                        CircleAvatar(
-                          backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                          radius: 25,
-
-                        ),
-                        CircleAvatar(
-                          backgroundColor: Colors.red,
-                          radius: 5,),
-
-                      ],
-                    ),
-
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-
-                        children: [
-                          Text("kdhsklfjdkljfskldjfsldkfjlsk ",style: TextStyle(fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold )),
-                          Text("Chaggfdg.d;lfg;dflg;dlfgts ",style: TextStyle(fontSize: 12,  )),
-
-
-                        ],
-                      ),
-                    ),
-
-
-
-
-
-
-
-
-                  ],
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-
-                  children: [
-                    Stack(
-                      alignment:AlignmentDirectional.bottomEnd ,
-                      children: [
-                        CircleAvatar(
-                          backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                          radius: 25,
-
-                        ),
-                        CircleAvatar(
-                          backgroundColor: Colors.red,
-                          radius: 5,),
-
-                      ],
-                    ),
-
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-
-                        children: [
-                          Text("kdhsklfjdkljfskldjfsldkfjlsk ",style: TextStyle(fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold )),
-                          Text("Chaggfdg.d;lfg;dflg;dlfgts ",style: TextStyle(fontSize: 12,  )),
-
-
-                        ],
-                      ),
-                    ),
-
-
-
-
-
-
-
-
-                  ],
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-
-                  children: [
-                    Stack(
-                      alignment:AlignmentDirectional.bottomEnd ,
-                      children: [
-                        CircleAvatar(
-                          backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                          radius: 25,
-
-                        ),
-                        CircleAvatar(
-                          backgroundColor: Colors.red,
-                          radius: 5,),
-
-                      ],
-                    ),
-
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-
-                        children: [
-                          Text("kdhsklfjdkljfskldjfsldkfjlsk ",style: TextStyle(fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold )),
-                          Text("Chaggfdg.d;lfg;dflg;dlfgts ",style: TextStyle(fontSize: 12,  )),
-
-
-                        ],
-                      ),
-                    ),
-
-
-
-
-
-
-
-
-                  ],
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-
-                  children: [
-                    Stack(
-                      alignment:AlignmentDirectional.bottomEnd ,
-                      children: [
-                        CircleAvatar(
-                          backgroundImage: NetworkImage('https://image.shutterstock.com/image-photo/purple-crocus-flowers-spring-high-600w-1961916049.jpg'),
-                          radius: 25,
-
-                        ),
-                        CircleAvatar(
-                          backgroundColor: Colors.red,
-                          radius: 5,),
-
-                      ],
-                    ),
-
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-
-                        children: [
-                          Text("kdhsklfjdkljfskldjfsldkfjlsk ",style: TextStyle(fontSize: 15, color: Colors.black, fontWeight: FontWeight.bold )),
-                          Text("Chaggfdg.d;lfg;dflg;dlfgts ",style: TextStyle(fontSize: 12,  )),
-
-
-                        ],
-                      ),
-                    ),
-
-
-
-
-
-
-
-
-                  ],
-                ),
               ],
 
 
