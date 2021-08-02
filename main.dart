@@ -2,6 +2,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import 'BMI calculator.dart';
+import 'BMI_Calculator_Result.dart';
 import 'counter_game.dart';
 import 'login screen.dart';
 import 'messenger_screen.dart';
@@ -13,7 +15,7 @@ void main() {
 class myapp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-  return MaterialApp(home:counter_game() ,
+  return MaterialApp(home:BMI_calculator() ,
 
   );
   }
